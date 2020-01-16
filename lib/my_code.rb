@@ -12,7 +12,7 @@ new
 end 
 
 def reduce(array, start_val = nil)
-  #reduce accumulates values to return 1 final value
+  #reduce accumulates array values to return 1 final #value
   if start_val == nil 
     sum = start_val
     i = 0
@@ -20,7 +20,6 @@ def reduce(array, start_val = nil)
     sum = array[0]
     i = 1
   end
-  
   while i < array.length
   sum = yield(sum, array[i])
   i++
