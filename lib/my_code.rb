@@ -3,6 +3,6 @@ def map(array)
   
 end
 
-def reduce(array)
+def reduce(array, start_val = nil)
   
 end
