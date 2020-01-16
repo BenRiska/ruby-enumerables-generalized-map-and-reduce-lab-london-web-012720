@@ -14,4 +14,7 @@ end
 def reduce(array, start_val = nil)
   #reduce accumulates values to return 1 final value
   if start_val == nil 
+    sum = start_val
+  else
+    sum = array[]
 end
