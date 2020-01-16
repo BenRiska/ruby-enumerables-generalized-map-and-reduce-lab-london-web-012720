@@ -4,7 +4,7 @@ def map(array)
   new = []
   count = 0 
   
-  
+  while count < array.length 
 end 
 
 def reduce(array, start_val = nil)
