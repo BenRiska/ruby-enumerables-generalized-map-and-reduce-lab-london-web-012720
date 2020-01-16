@@ -1,8 +1,11 @@
 # Your Code Here
 def map(array)
   #map returns an array of manipulated elements
+  new = []
+  count = 0 
   
-end
+  
+end 
 
 def reduce(array, start_val = nil)
   
