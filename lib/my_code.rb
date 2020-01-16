@@ -12,5 +12,5 @@ new
 end 
 
 def reduce(array, start_val = nil)
-  
+  #reduce accumulates values 
 end
