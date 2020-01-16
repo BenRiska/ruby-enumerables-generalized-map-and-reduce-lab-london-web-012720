@@ -7,6 +7,8 @@ def map(array)
   while count < array.length 
   new.push(yield(array[count]))
   count++
+end
+new
 end 
 
 def reduce(array, start_val = nil)
