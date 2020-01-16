@@ -12,5 +12,6 @@ new
 end 
 
 def reduce(array, start_val = nil)
-  #reduce accumulates values 
+  #reduce accumulates values to return 1 final value
+  if start_val == nil 
 end
